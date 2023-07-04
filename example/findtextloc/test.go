@@ -3,8 +3,9 @@ package main
 import (
 	"context"
 	"fmt"
-	gwrp "github.com/JPratama7/gwrap"
-	gdocs "github.com/JPratama7/gwrap/docs"
+
+	gwrp "github.com/aiteung/googleapi"
+	gdocs "github.com/aiteung/googleapi/docs"
 	"google.golang.org/api/docs/v1"
 	"google.golang.org/api/drive/v2"
 	"google.golang.org/api/option"
